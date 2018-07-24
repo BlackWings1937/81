@@ -28,12 +28,19 @@
     <Folder Include="scripts\FrameWork\Global\" />
     <Folder Include="scripts\FrameWork\Base\" />
     <Folder Include="scripts\FrameWork\AI\" />
+    <Folder Include="scripts\FrameWork\ActionsEx\" />
+    <Folder Include="scripts\FrameWork\Interface\" />
+    <Folder Include="scripts\FrameWork\Util\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="scripts\FrameWork\ActionsEx\ActionsManager.lua" />
     <Compile Include="scripts\FrameWork\AI\GridsAndAStar\Grid.lua" />
     <Compile Include="scripts\FrameWork\AI\GridsAndAStar\GridManager.lua" />
     <Compile Include="scripts\FrameWork\Base\SceneBase.lua" />
     <Compile Include="scripts\FrameWork\Global\GlobalFunctions.lua" />
+    <Compile Include="scripts\FrameWork\Util\EventUtil.lua" />
+    <Compile Include="scripts\FrameWork\Util\ListUtil.lua" />
+    <Compile Include="scripts\FrameWork\Util\SpriteUtil.lua" />
     <Compile Include="scripts\Scene.lua" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

@@ -1,3 +1,5 @@
-[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:20: attempt to concatenate global 'a' (a nil value)
+[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:15: attempt to get length of field 'listOfPoses_' (a nil value)
 stack traceback:
-	[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:20: in function <[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:19>
+	[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:15: in function 'process'
+	[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:39: in function 'processEnd'
+	[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:25: in function <[string "D:/Project/xiaobanlong5.2.0/Resources/../Win3..."]:24>

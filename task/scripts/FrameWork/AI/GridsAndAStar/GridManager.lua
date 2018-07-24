@@ -91,7 +91,7 @@ function GridManager:searchPathBack(posEnd)
     local listOfPath = { };
     local nowIndexPos = posEnd;
     while nowIndexPos ~= nil do
-        table.insert(listOfPath, nowIndexPos);
+        table.insert(listOfPath,0 ,nowIndexPos);
         nowIndexPos = nowIndexPos.parent_;
     end
     return listOfPath;
